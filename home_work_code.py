@@ -26,5 +26,5 @@ for string in queries:
 #print(three_words_count)
 #print(two_words_count)
 
-print(f"Поисковых запросов, содержащих 2 слов(а): {two_words_count/(three_words_count + two_words_count):.2%}")
-print(f"Поисковых запросов, содержащих 3 слов(а): {three_words_count/(three_words_count + two_words_count):.2%}")
+print(f"Search quieries containing 2 words: {two_words_count/(three_words_count + two_words_count):.2%}")
+print(f"Search quieries containig 3 words: {three_words_count/(three_words_count + two_words_count):.2%}")
